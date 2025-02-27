@@ -103,3 +103,21 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+  @media (max-width: 550px) {
+    section.gallery {
+      & .content {
+          display: block;
+          grid-template-areas:
+          "A B B"
+          "C C D";
+          gap: 2.5rem;
+          justify-content: space-between;
+
+      }
+    }
+    .picture {
+      border: 10px white solid;
+      border-radius: 50px;
+    }
+  }

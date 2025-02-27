@@ -292,6 +292,7 @@ section.hero {
   section.hero {
     & > div:nth-child(2) {
       height: 20rem;
+      width: 100%;
     }
   }
 }

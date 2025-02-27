@@ -105,3 +105,18 @@ footer {
     }
   }
 }
+
+@media (max-width: 550px) {
+  footer {
+    display: block;
+    justify-content: center;
+    }
+    .info {
+      display: flex;
+      padding-top: 20px;
+      align-items: center;
+    }
+    .social-links {
+      padding-top: 10px;
+    }
+  }
